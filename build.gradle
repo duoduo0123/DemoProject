@@ -1,9 +1,18 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group 'com.github.fcu-d0785683'
+
+group 'com.github.duoduo0123'
 version '1.0-SNAPSHOT'
+
+compileJava.options.encoding = 'UTF-8'
+
+application {
+    mainClassName 'com.github.duoduo0123.Main'
+}
+
 
 repositories {
     mavenCentral()
